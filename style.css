@@ -175,7 +175,7 @@ header>p{
     height: 192px;
     display: flex;
     flex-direction: row;
-    padding: 0px 32px;
+    padding: 0px 0px 96px 0px;
     gap: 64px;
     margin: auto;
 }
@@ -200,24 +200,55 @@ header>p{
     font-weight: 400;
     line-height: 24px;
 }
-.procurando{
+.vagas{
     background-color: white;
     width: 1440px;
     height: 1798px;
-    padding: 96px 0px;
-    gap: 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+
+}
+.procurando{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: 138px;
+    padding: 96px 0px 66px 0px;
+
 }
 .procurando>span{
     width: 125px;
     height: 28px;
-    background-color: #8e242423;
+    background-color: #8e242427;
     color: #8E2424;
     font-size: 14px;
     font-weight: 500;
+    line-height: 20px;
     text-align: center;
     align-items: center;
+    vertical-align: middle;
+    border-radius: 16px;
+    padding: 4px 3px;
+}
+.procurando>img{
+    width: 1216px;
+    height: 400px;
+
+}
+.procurando>h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 20px 0px 10px 0px;
+
+}
+.procurando>p{
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0px 10px 0px;
 }
